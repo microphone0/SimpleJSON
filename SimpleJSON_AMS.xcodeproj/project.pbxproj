@@ -14,6 +14,7 @@
 		B5099D00222D6B1600291778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5099CFF222D6B1600291778 /* Assets.xcassets */; };
 		B5099D03222D6B1600291778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5099D01222D6B1600291778 /* LaunchScreen.storyboard */; };
 		B5099D0E222D6B1600291778 /* SimpleJSON_AMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5099D0D222D6B1600291778 /* SimpleJSON_AMSTests.swift */; };
+		B5099D19222D6C7E00291778 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5099D18222D6C7E00291778 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B5099D09222D6B1600291778 /* SimpleJSON_AMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJSON_AMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5099D0D222D6B1600291778 /* SimpleJSON_AMSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJSON_AMSTests.swift; sourceTree = "<group>"; };
 		B5099D0F222D6B1600291778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5099D18222D6C7E00291778 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				B5099CFF222D6B1600291778 /* Assets.xcassets */,
 				B5099D01222D6B1600291778 /* LaunchScreen.storyboard */,
 				B5099D04222D6B1600291778 /* Info.plist */,
+				B5099D18222D6C7E00291778 /* DataManager.swift */,
 			);
 			path = SimpleJSON_AMS;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5099CFB222D6B1500291778 /* DetailViewController.swift in Sources */,
+				B5099D19222D6C7E00291778 /* DataManager.swift in Sources */,
 				B5099CF9222D6B1500291778 /* MasterViewController.swift in Sources */,
 				B5099CF7222D6B1500291778 /* AppDelegate.swift in Sources */,
 			);
