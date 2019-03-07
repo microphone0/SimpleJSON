@@ -10,7 +10,7 @@ import UIKit
 
 class DataManager: NSObject {
     
-    let MYJSONSTRING = "https://api.myjson.com/bins/8lf8u"
+    let MYJSONSTRING = "https://api.myjson.com/bins/iggyi"
     
     var dataArray = ["Unexpected Data in bagging area!!"]
     
